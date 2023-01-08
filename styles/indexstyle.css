@@ -1,0 +1,162 @@
+* {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+
+    background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png'), url("../images/developer.png");
+    background-repeat: no-repeat;
+    background-position: bottom right, left;
+    margin-right: 0px;
+
+}
+
+/* header and navigation styles */
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+
+nav li {
+    list-style: none;
+    margin-left: 50px;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.navtitle {
+
+    font-weight: 800;
+    font-size: 45px;
+    color: #181818;
+}
+
+.primecol {
+    color: #FD6E0A;
+
+}
+
+.btn {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    background-color: #FD6E0A;
+    height: 64px;
+    border-radius: 5px;
+    padding: 18px 35px;
+
+
+}
+
+.btnbelow {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+    border: 0;
+    background-color: #FD6E0A;
+    height: 64px;
+    border-radius: 5px;
+    padding: 18px 35px;
+
+
+}
+
+.banner {
+    display: flex;
+    align-items: center;
+    margin-left: 154 px;
+    margin-right: 230px;
+
+
+}
+
+.bannersub {
+    font-weight: 600;
+    font-size: 45px;
+    color: #474747;
+    margin-bottom: 5px;
+
+
+}
+
+.bannermain {
+    font-weight: 700;
+    font-size: 85px;
+    color: #181818;
+    margin-bottom: 50px;
+
+}
+
+.bannerpara {
+    font-weight: 60;
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.subdiv {
+    margin-left: 150px;
+}
+
+.hardy {
+    margin-left: 1200px;
+    margin-right: 0px;
+    padding-left: 30px;
+
+}
+
+/* about section style */
+.about {
+    text-align: center;
+    margin-top: 200px;
+    width: 2000px;
+    height: 400px;
+    padding: 140px 150px;
+
+
+}
+
+.section-title {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+}
+
+.sectiondes {
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 205px;
+    margin-right: 386px;
+    margin-left: 387px;
+    color: #757575;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 115px;
+}
+
+.infotitle {
+    font-weight: 400;
+    font-size: 20px;
+
+
+}
+
+.infoname {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: #474747;
+}
